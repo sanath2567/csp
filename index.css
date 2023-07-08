@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    display: flex;
+
+}
+
+.main{
+    transform: translateY(50px);
+    margin-left:25px;
+    height:100vh;
+    position: relative;
+}
+.sub h1{
+    margin-left:35px;
+}
+.sub h2{
+    margin-left:25px;
+    margin-bottom: 13px;
+}
+.sub p{
+    color:grey;
+    margin: 15px;
+}
+.sub h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:25px;
+}
+
+.button1{
+   transform: translateX(-20px);
+   padding: 10px 10px ;
+}
+ .button1 button{
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: #ef584d;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0 ,0, 0.2),0 6px 20px 0 rgba(0, 0 ,0, 0.19);
+    margin-left: 30px;
+ }
+ .button1 a{
+    color: #000;
+ }
+ .button1 button:hover{
+    background-color: transparent;
+    border: 1px solid  #ef584d ;
+ }
+
+ .num{
+    transform: translateX(-20px);
+    padding: 10px 10px ;
+ }
+  .num button{
+     color: black;
+     padding: 10px 10px;
+     cursor: pointer;
+     background: #ef584d;
+     outline: none;
+     border: none;
+     border-radius: 2px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0 ,0, 0.2),0 6px 20px 0 rgba(0, 0 ,0, 0.19);
+     margin-left: 30px;
+  }
+  .num a{
+     color: #000;
+  }
+  .num button:hover{
+     background-color: transparent;
+     border: 1px solid  #ef584d ;
+  }
+
+
+  .button2{
+    transform: translateX(-20px);
+ }
+  .button2 button{
+     color: black;
+     padding: 8px 8px;
+     cursor: pointer;
+     background: #ffcc74;;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0 ,0, 0.2),0 6px 20px 0 rgba(0, 0 ,0, 0.19);
+    transform: translateX(40px);
+  }
+  .button2 a{
+    color: #fff;
+  }
+  .button3 a{
+     color: #fff;
+  }
+  
+  .button3{
+    transform: translateX(-20px);
+ }
+  .button3 button{
+     color: black;
+     padding: 8px 8px;
+     cursor: pointer;
+     background: blue;
+     outline: none;
+     border: none;
+     border-radius: 4px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0 ,0, 0.2),0 6px 20px 0 rgba(0, 0 ,0, 0.19);
+    transform: translateX(40px);
+  }
+  .button3 a{
+     color: #fff;
+  }
+
+  
+@media screen and (min-width:400px) {
+
+    .main{
+        margin-bottom: 40px;
+        margin-left: 90px;
+       
+    }
+   .sub h1{
+    margin-bottom: 20px;
+   }
+   .sub p{
+    margin-right: 60px;
+    color:grey;
+   }
+}
+
+@media screen and (min-width:560px){
+
+    .main{
+        margin-left: 200px;
+    }
+}
+@media screen and (min-width:822px){
+
+    .main{
+        margin-left: 300px;
+    }
+
+}
+@media screen and (min-width:900px){
+
+    .main{
+        margin-left: 350px;
+    }
+
+}
+@media screen and (min-width:1000px){
+
+    .main{
+        margin-left: 400px;
+    }
+    .main h1{
+        font-size:30px;
+    }
+    .main p{
+        font-size: 20px;
+        color:darkgray;
+        font-weight: bolder;
+        margin-left: -90px;
+       }
+
+}
+@media screen and (max-width:310px){
+
+   .nums{
+    margin-left: -90px;
+    padding: 0px 0px;
+  
+   }
+   
+}
